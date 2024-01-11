@@ -12,16 +12,26 @@
 .menu-container-header{
 
     color: #fff;
+    margin-left: 0;
+    font-size: 53px;
+    font-weight: bold;
+    font-style: italic;
+    border-right: 0.1em solid #FF8D8D;
+    margin: 0 ;
+    letter-spacing: .4rem;
+    margin-right: 150px;
 }
 
 .menu-container ul{
-    
+   margin-right: 150px;
 }
  .menu-container ul li{
     list-style: none;
     display: inline;
     padding: 10px;
-    color:#fff
+    color:#fff;
+    padding: 15px;
+    font-size: 18px;
  }
 
  .menu-container ul li:hover{
@@ -33,5 +43,136 @@
  /* banner Style */
 
  .banner{
+    background-color:black ;
     display: flex;
+    justify-content: space-evenly;
+    height: auto;
  }
+ .left-texts{
+    
+        margin-top: 170px;
+        margin-left: 50px;
+    
+ }
+
+ .left-texts .first-text{
+    color: red;
+ }
+
+ .right-img{
+    width: 725px;
+ }
+
+ .first-text{
+    color: rgb(219, 19, 19);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px;
+    
+}
+
+.sec-text{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.paragraph{
+   margin-top: 170px;
+    margin-left: 50px;
+      font-size: 22px;
+      font-weight: 700;
+      margin: 10px;
+      color: rgb(196, 205, 205);
+  
+}
+
+.primary-btn{
+   
+      padding: 19px 45px;
+      border-radius: 5px;
+      background-color: red;
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 15px;
+  
+}
+
+.display-hdn{
+   display: none;
+}
+.take-look{
+   margin-top: 70px;
+}
+.take-look-container{
+   display: flex;
+
+}
+
+.take-look-title{
+   text-align: center;
+   font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.i-1{
+   text-align: center;
+   width: 300px;
+   height: 200px;
+   padding: 20px;
+   border: 1px solid gray;
+   box-shadow: 8px 8px 16px grey;
+   transition: .8ms;
+}
+
+.i-1:hover{
+   border: 1px solid red;
+   margin-top: -30px;
+   transition: .8ms ease-in-out;
+}
+.i-2{
+   text-align: center;
+   width: 300px;
+   height: 200px;
+   padding: 20px;
+   border: 1px solid gray;
+   box-shadow: 8px 8px 16px grey;
+   transition: .8ms;
+}
+
+.i-2:hover{
+   border: 1px solid red;
+   margin-top: -30px;
+   transition: .8ms ease;
+}
+.i-3{
+   text-align: center;
+   width: 300px;
+   height: 200px;
+   padding: 20px;
+   border: 1px solid gray;
+   box-shadow: 8px 8px 16px grey;
+   transition: .8ms;
+}
+
+.i-3:hover{
+   border: 1px solid red;
+   margin-top: -30px;
+   transition: .8ms ease;
+}
+
+.img-icon{
+   width: 70px;
+}
+
+
+
+
+/* About section style */
+
